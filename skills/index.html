@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Skills Assessment Reviewer (TRA Welder) | Erick Tradie</title>
+  <meta name="description" content="Libreng skills assessment reviewer: documents checklist, practical videos, technical interview practice questions. Batay sa sariling TRA journey ni Erick.">
+  <meta property="og:title" content="Libreng Skills Assessment Reviewer – Erick Tradie">
+  <meta property="og:description" content="Documents, practical videos at technical interview. Para hindi mo maulit ang mga mali ko.">
+  <meta property="og:image" content="../assets/erick.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="../"><span class="dot"></span> ERICK TRADIE</a>
+
+    <main class="hero">
+      <section class="intro">
+        <span class="kicker">LIBRE · PDF · Skills Assessment</span>
+        <h1>Skills Assessment Reviewer: <span class="accent">huwag mong ulitin ang mga mali ko</span></h1>
+        <p class="lead">Inabot ng 4 na buwan ang TRA skills assessment ko bilang welder. Dito ko inilagay lahat ng sana alam ko na noon: documents, practical videos at ang pinaka-nakakakabang part, ang technical interview.</p>
+      </section>
+      <section class="inside">
+        <h2 class="inside-title">Ano ang laman?</h2>
+        <ul class="list">
+          <li>Documents checklist: ano ang ipapasa agad para hindi ma-delay ng 2 buwan</li>
+          <li>Ang buong proseso step by step, at gaano katagal ang bawat stage</li>
+          <li>Practical videos: paano maghanda para hindi mapamahal</li>
+          <li>Technical interview: practice questions at paano sumagot nang kalmado</li>
+          <li>Mga pagkakamaling iwasan, galing sa sarili kong karanasan</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="get">
+        <div class="cover">
+          <div class="book">SKILLS<br><span>REVIEWER</span><br>Erick Tradie</div>
+          <div class="meta"><b>Skills Assessment Reviewer</b>Ipapadala sa email mo sa loob ng 1 minuto</div>
+        </div>
+        <h2 id="get">Saan ko ipapadala?</h2>
+        <p class="small">Walang bayad. Pwede kang mag-unsubscribe anytime.</p>
+
+        <!-- Kit form: replace KIT_FORM_ID with the SKILLS form's number (Kit → form → Embed → HTML) -->
+        <form id="lead" action="https://app.kit.com/forms/KIT_FORM_ID/subscriptions" method="post">
+          <label for="fn">Pangalan</label>
+          <input id="fn" type="text" name="fields[first_name]" autocomplete="given-name" placeholder="Juan" required>
+          <label for="em">Email</label>
+          <input id="em" type="email" name="email_address" autocomplete="email" placeholder="juan@gmail.com" required>
+          <label class="consent"><input type="checkbox" required>
+            <span>Oo, ipadala ang reviewer at padalhan ako ng skills assessment at migration tips ni Erick. Pwede akong mag-unsubscribe anytime. <a href="../privacy/">Privacy</a></span></label>
+          <button class="btn" type="submit">Ipadala ang Reviewer →</button>
+          <p class="note">Check mo rin ang Promotions o Spam folder.</p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="about">
+      <img src="../assets/erick.jpg" alt="Erick Tradie" width="76" height="76">
+      <p><b>Hi, ako si Erick.</b> Pinoy tradie dito sa Australia. Sa YouTube channel ko tinutulungan ko ang mga kababayan nating skilled workers: PTE, skills assessment, visa at buhay dito sa Australia.</p>
+    </aside>
+
+    <footer>
+      © Erick Tradie · <a href="../privacy/">Privacy</a><br>
+      Batay sa sariling karanasan ni Erick (welder, NSW). Hindi kami affiliated sa TRA o sa Australian Government. Iba-iba ang bawat kaso; hindi ito legal o migration advice.
+    </footer>
+  </div>
+  <script>
+    // Until the Kit form is connected, stop test sign-ups from going nowhere.
+    document.getElementById('lead').addEventListener('submit', function (e) {
+      if (this.action.indexOf('KIT_FORM_ID') !== -1) { e.preventDefault(); alert('Form not connected yet: add the Kit form ID.'); return; }
+      this.querySelector('button').disabled = true;
+      this.querySelector('button').textContent = 'Sending…';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free PTE Reviewer | Erick Tradie</title>
+  <meta name="description" content="Libreng PTE reviewer para sa Pinoy skilled workers papuntang Australia: structures, sample answers at cheat sheet para sa mga PTE task.">
+  <meta property="og:title" content="Libreng PTE Reviewer – Erick Tradie">
+  <meta property="og:description" content="Structures, sample answers at linking-words cheat sheet. I-type lang ang email mo.">
+  <meta property="og:image" content="../assets/erick.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="../"><span class="dot"></span> ERICK TRADIE</a>
+
+    <main class="hero">
+      <section class="intro">
+        <span class="kicker">LIBRE · PDF · 5 pages</span>
+        <h1>PTE Reviewer para sa <span class="accent">Pinoy skilled workers</span></h1>
+        <p class="lead">Simple na structures, sample answers at cheat sheet para hindi ka mablangko sa exam. I-type lang ang email mo at ipapadala ko agad.</p>
+      </section>
+      <section class="inside">
+        <h2 class="inside-title">Ano ang laman?</h2>
+        <ul class="list">
+          <li>Essay: 4-paragraph structure + buong sample essay</li>
+          <li>Describe Image, Re-tell Lecture at Summarize: sentence patterns na madaling tandaan</li>
+          <li>Answer Short Question at Repeat Sentence: mga strategy para sa partial credit</li>
+          <li>Linking-words cheat sheet (adding, contrast, cause, effect, conclusion)</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="get">
+        <div class="cover">
+          <div class="book">PTE<br><span>REVIEWER</span><br>Erick Tradie</div>
+          <div class="meta"><b>Free PTE Reviewer</b>Ipapadala sa email mo sa loob ng 1 minuto</div>
+        </div>
+        <h2 id="get">Saan ko ipapadala?</h2>
+        <p class="small">Walang bayad. Pwede kang mag-unsubscribe anytime.</p>
+
+        <!-- Kit form "PTE Reviewer" (ID 10168295) -->
+        <form id="lead" action="https://app.kit.com/forms/10168295/subscriptions" method="post">
+          <label for="fn">Pangalan</label>
+          <input id="fn" type="text" name="fields[first_name]" autocomplete="given-name" placeholder="Juan" required>
+          <label for="em">Email</label>
+          <input id="em" type="email" name="email_address" autocomplete="email" placeholder="juan@gmail.com" required>
+          <label class="consent"><input type="checkbox" required>
+            <span>Oo, ipadala ang reviewer at padalhan ako ng PTE at migration tips ni Erick. Pwede akong mag-unsubscribe anytime. <a href="../privacy/">Privacy</a></span></label>
+          <button class="btn" type="submit">Ipadala ang Reviewer →</button>
+          <p class="note">Check mo rin ang Promotions o Spam folder.</p>
+        </form>
+      </section>
+    </main>
+
+    <aside class="about">
+      <img src="../assets/erick.jpg" alt="Erick Tradie" width="76" height="76">
+      <p><b>Hi, ako si Erick.</b> Pinoy tradie dito sa Australia. Sa YouTube channel ko tinutulungan ko ang mga kababayan nating skilled workers: PTE, skills assessment, visa at buhay dito sa Australia.</p>
+    </aside>
+
+    <footer>
+      © Erick Tradie · <a href="../privacy/">Privacy</a><br>
+      Hindi kami affiliated sa Pearson. Ang PTE Academic ay trademark ng Pearson. Gabay lang ang reviewer na ito, hindi garantiya ng score.
+    </footer>
+  </div>
+  <script>
+    // Until the Kit form is connected, stop test sign-ups from going nowhere.
+    document.getElementById('lead').addEventListener('submit', function (e) {
+      if (this.action.indexOf('KIT_FORM_ID') !== -1) { e.preventDefault(); alert('Form not connected yet: add the Kit form ID.'); return; }
+      this.querySelector('button').disabled = true;
+      this.querySelector('button').textContent = 'Sending…';
+    });
+  </script>
+</body>
+</html>
